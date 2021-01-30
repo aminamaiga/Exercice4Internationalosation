@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Exercice4Internationalosation</string>
+    <string name="nom">Nom</string>
+    <string name="votre_nom">Votre Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="votre_prenom">Votre prenom</string>
+    <string name="age">Age</string>
+    <string name="votre_age">Votre age</string>
+    <string name="domaine_comp">Domaine de compétence</string>
+    <string name="telephone">Téléphone</string>
+    <string name="domaine_compet">Domaine</string>
+    <string name="numero">Votre numéro</string>
+    <string name="titre">Internalisation</string>
+    <string name="titre2">vue (interface) en JAVA</string>
+    <string name="valider">Valider</string>
+</resources>

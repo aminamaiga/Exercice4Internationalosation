@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <ImageView
+           android:id="@+id/fr_bouton"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:src="@drawable/fr_flag"
+           android:layout_marginRight="5dp"/>
+
+       <ImageView
+           android:id="@+id/en_bouton"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:src="@drawable/en_flag"/>
+   </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titre"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/nom"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/votre_nom"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/prenom"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/votre_prenom"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/age"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/votre_age"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/domaine_comp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/domaine_compet"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/telephone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero"
+        android:textAlignment="center"
+        android:inputType="phone"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valider"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
