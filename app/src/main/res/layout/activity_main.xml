@@ -38,6 +38,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:text="@string/nom"/>
     <EditText
+        android:id="@+id/ed_nom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/votre_nom"
@@ -51,6 +52,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:text="@string/prenom"/>
     <EditText
+        android:id="@+id/ed_prenom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/votre_prenom"
@@ -64,6 +66,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:text="@string/age"/>
     <EditText
+        android:id="@+id/ed_age"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/votre_age"
@@ -77,6 +80,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:text="@string/domaine_comp"/>
     <EditText
+        android:id="@+id/ed_domaine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/domaine_compet"
@@ -90,6 +94,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:text="@string/telephone"/>
     <EditText
+        android:id="@+id/ed_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/numero"
@@ -98,6 +103,7 @@
         android:gravity="center_horizontal" />
 
     <Button
+        android:id="@+id/valider"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/valider"

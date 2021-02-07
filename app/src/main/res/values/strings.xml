@@ -13,4 +13,11 @@
     <string name="titre">Internalisation</string>
     <string name="titre2">vue (interface) en JAVA</string>
     <string name="valider">Valider</string>
+    <string name="pr_cedent">Précedent</string>
+    <string name="suivant">Suivant</string>
+    <string name="activit_2">Activité 2</string>
+    <string name="activit_3">Activité3</string>
+    <string name="passer_un_appel_t_l_phonique">Passer un appel Téléphonique</string>
+    <string name="exp_06_04_79_71_49">Exp: 06 04 79 71 49</string>
+    <string name="appeler">Appeler</string>
 </resources>

@@ -13,4 +13,6 @@
     <string name="titre">Internalization</string>
     <string name="titre2">view (interface) in JAVA</string>
     <string name="valider">Validation</string>
+    <string name="pr_cedent">Précedent</string>
+    <string name="suivant">Suivant</string>
 </resources>
